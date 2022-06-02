@@ -6,7 +6,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.slideshare.net/*/*"
+        "https://www.slideshare.net/*/*",
+        "https://es.slideshare.net/*/*"
       ],
       "js": [
         "main.js"
